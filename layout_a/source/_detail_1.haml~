@@ -1,0 +1,13 @@
+.detail1
+  .topbar
+    .arrows
+      .uparrow
+      .downarrow 
+    .innerbar
+      .user ZoSo028 
+      .points points: 12
+  .content 
+    %p 
+      This song is brilliant. It really cracks me up. Basically, it is criticizing American culture, and comparing modern (1960's) America's appeal, or lack of, to the appeal of America during the time it was "discovered" by Colombus. It criticizes many aspects of beurocracy and America's unfriendly culture, and it's just great and subtle at the same time.
+  
+  = partial "detail2.haml"

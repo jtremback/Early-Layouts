@@ -1,0 +1,131 @@
+//OVERALL
+body
+  font-family: sans-serif
+  font-size: 1em
+
+//VIZ STYLES
+.basic
+  border: 1px solid black
+  border-radius: 2px
+  background: white
+
+//LAYOUT
+.fixframe
+  position: fixed
+  right: 0
+  top: 0
+  height: 100%
+.spacer
+  width: 250px
+  height: 100%
+  display: inline-block
+  background: blue
+.scrolling
+  height: 100%
+  position: relative
+  clear: none
+  
+//COMMENT
+.comment
+  @extend .basic
+  padding: .5em
+  margin: .25em
+  margin-bottom: .5em
+  .topbar
+    height: 3em
+  .arrows
+    display: inline-block
+    margin-right: .25em
+  .innerbar
+    display: inline-block
+    vertical-align: top
+    .user
+      font-weight: bold
+    .karma
+  .content
+    font-size: 1em
+    margin-top: -1em
+    line-height: 1em
+    overflow: hidden
+
+.uparrow
+  @extend .basic
+  width: 1em
+  height: .9em
+  border-top-right-radius: 100%
+  border-top-left-radius: 100%
+  margin-bottom: .25em
+
+.downarrow
+  @extend .basic
+  width: 1em
+  height: .9em
+  border-bottom-right-radius: 100%
+  border-bottom-left-radius: 100%
+
+
+//SOURCE
+.dylan
+  text-align: center
+  font-size: 1em
+  line-height: 1em
+
+//HEATMAP
+.heatmap
+  @extend .basic
+  position: absolute
+  right: 0
+  top: 7px
+  bottom: 0
+  width: 20px
+
+  .pointer
+    @extend .basic
+    position: absolute
+    left: -10px
+    height: 20px
+    width: 25px
+    border-bottom-right-radius: 100px
+    border-top-right-radius: 100px
+    background: white
+
+//NOTIFIER
+.notifier
+  position: absolute
+  top: 0
+  left: -76px
+  .icon
+    @extend .basic
+    width: 20px
+    height: 20px
+    float: left
+    margin-right: 1px
+
+//BUCKET
+.bucket
+  width: 250px
+  overflow: auto
+  height: 100%
+  .card
+    @extend .comment
+    .content
+      max-height: 10em
+
+//COMMENT DETAIL
+#detail1
+  @extend .comment
+  position: absolute
+  left: 300px
+  right: 300px
+  top: 22em
+
+#detail2
+  @extend .comment
+  margin-left: -.5em
+  margin-right: -.5em
+  
+//CLICKABLES
+#icon1, #pointer1, #card1, #detail1, #pointer2, #card2
+  cursor: pointer
+  box-shadow: 0px 0px 5px #B4CDCD inset
+

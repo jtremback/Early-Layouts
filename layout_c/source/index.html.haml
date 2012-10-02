@@ -1,0 +1,14 @@
+- content_for :head do
+  %title Layout C
+
+.scrolling
+  = partial "fakecontent.haml"
+  #heatmap1.heatmap
+    #pointer1.pointer{:style => "top: 21em;"}
+    #pointer2.pointer{:style => "top: 6em;"}
+    #pointer3.pointer{:style => "top: 3em;"}
+
+.fixframe
+  = partial "bucket2.haml"
+  = partial "bucket1.haml"
+

@@ -1,0 +1,11 @@
+- content_for :head do
+  %title Layout A
+
+.scrolling
+  = partial "fakecontent.haml"
+  = partial "heatmap.haml"
+  = partial "detail_1.haml"
+
+.fixframe
+  = partial "bucket.haml"
+  = partial "notifier.haml"

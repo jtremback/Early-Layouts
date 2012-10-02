@@ -1,0 +1,13 @@
+.detail3
+  .topbar
+    .arrows
+      .uparrow
+      .downarrow 
+    .innerbar
+      .user Paega 
+      .points points: 5
+  .content 
+    %p 
+      Give me a break. 
+      %br      
+      One line about buying the place with beads doesn't mean that the whole song is about colonialism. Are you the ghost of Barack Obama's father?
