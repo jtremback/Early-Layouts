@@ -1,0 +1,132 @@
+/* line 2, site.css.sass */
+body {
+  font-family: sans-serif;
+  font-size: 1em; }
+
+/* line 7, site.css.sass */
+.basic, .comment, .bucket .card, #detail1, #detail2, .uparrow, .downarrow, .heatmap, .heatmap .pointer, .notifier .icon {
+  border: 1px solid black;
+  border-radius: 2px;
+  background: white; }
+
+/* line 13, site.css.sass */
+.fixframe {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%; }
+
+/* line 18, site.css.sass */
+.spacer {
+  width: 250px;
+  height: 100%;
+  display: inline-block;
+  background: blue; }
+
+/* line 23, site.css.sass */
+.scrolling {
+  height: 100%;
+  position: relative;
+  clear: none; }
+
+/* line 29, site.css.sass */
+.comment, .bucket .card, #detail1, #detail2 {
+  padding: 0.5em;
+  margin: 0.25em;
+  margin-bottom: 0.5em; }
+  /* line 34, site.css.sass */
+  .comment .topbar, .bucket .card .topbar, #detail1 .topbar, #detail2 .topbar {
+    height: 3em; }
+  /* line 36, site.css.sass */
+  .comment .arrows, .bucket .card .arrows, #detail1 .arrows, #detail2 .arrows {
+    display: inline-block;
+    margin-right: 0.25em; }
+  /* line 39, site.css.sass */
+  .comment .innerbar, .bucket .card .innerbar, #detail1 .innerbar, #detail2 .innerbar {
+    display: inline-block;
+    vertical-align: top; }
+    /* line 42, site.css.sass */
+    .comment .innerbar .user, .bucket .card .innerbar .user, #detail1 .innerbar .user, #detail2 .innerbar .user {
+      font-weight: bold; }
+  /* line 44, site.css.sass */
+  .comment .content, .bucket .card .content, #detail1 .content, #detail2 .content {
+    font-size: 1em;
+    margin-top: -1em;
+    line-height: 1em;
+    overflow: hidden; }
+
+/* line 50, site.css.sass */
+.uparrow {
+  width: 1em;
+  height: 0.9em;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  margin-bottom: 0.25em; }
+
+/* line 58, site.css.sass */
+.downarrow {
+  width: 1em;
+  height: 0.9em;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%; }
+
+/* line 67, site.css.sass */
+.dylan {
+  text-align: center;
+  font-size: 1em;
+  line-height: 1em; }
+
+/* line 73, site.css.sass */
+.heatmap {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  bottom: 0;
+  width: 20px; }
+  /* line 81, site.css.sass */
+  .heatmap .pointer {
+    position: absolute;
+    left: -10px;
+    height: 20px;
+    width: 25px;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+    background: white; }
+
+/* line 92, site.css.sass */
+.notifier {
+  position: absolute;
+  top: 0;
+  left: -76px; }
+  /* line 96, site.css.sass */
+  .notifier .icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 1px; }
+
+/* line 104, site.css.sass */
+.bucket {
+  width: 250px;
+  overflow: auto;
+  height: 100%; }
+  /* line 110, site.css.sass */
+  .bucket .card .content {
+    max-height: 10em; }
+
+/* line 114, site.css.sass */
+#detail1 {
+  position: absolute;
+  left: 300px;
+  right: 300px;
+  top: 22em; }
+
+/* line 121, site.css.sass */
+#detail2 {
+  margin-left: -0.5em;
+  margin-right: -0.5em; }
+
+/* line 127, site.css.sass */
+#icon1, #pointer1, #card1, #detail1, #pointer2, #card2 {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #b4cdcd inset; }
